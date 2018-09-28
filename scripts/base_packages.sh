@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-set -ex
-
 # Disable documentation, install messages and suggestions when installing gems
 mkdir -p /usr/local/etc && \
   { \
@@ -30,5 +28,5 @@ apk --no-cache add \
   git
 
 # Install dumb-init as our process supervisor
-wget --quiet -O /usr/local/bin/dumb-init https://github.com/Yelp/dumb-init/releases/download/v1.2.1/dumb-init_1.2.1_amd64
+wget --quiet -O /usr/local/bin/dumb-init https://github.com/Yelp/dumb-init/releases/download/v1.2.2/dumb-init_1.2.2_amd64
 chmod +x /usr/local/bin/dumb-init

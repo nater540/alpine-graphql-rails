@@ -91,7 +91,7 @@ def create_process(*args, start: true, wait: true, attach: true, cwd: nil, envir
 end
 
 # Prompt the user to bump the version of the docker image
-prompt_version_bump
+# prompt_version_bump
 
 # Build the docker image?
 if agree('Build the container locally to ensure everything works? [Y/n]'.bold)

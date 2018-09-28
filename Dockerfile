@@ -1,8 +1,8 @@
 ##############################################################################################################
 # Create the base container
 ##############################################################################################################
-# FROM alpine:3.8 AS base
-FROM alpine:edge AS base
+FROM alpine:3.8 AS base
+# FROM alpine:edge AS base
 LABEL maintainer="Nate Strandberg <nater540@gmail.com>"
 
 ENV GEM_HOME /usr/local/bundle

@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-set -ex
-
 # Install all packages required to compile the LibGraphQLParser project
 apk --no-cache add \
   linux-headers \
